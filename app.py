@@ -46,7 +46,7 @@ if process_btn:
             
             # Validation Gate
             if original_data is None:
-                st.error("🚫 Invalid URL or Page Not Found. Please check the link and try again.")
+                st.error("Invalid URL or Page Not Found. Please check the link and try again.")
             else:
                 #  Call AI Engine
                 img = Image.open(ad_image)
