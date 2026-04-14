@@ -1,0 +1,22 @@
+/* Card-style containers for comparison */
+.stInfo, .stSuccess {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+}
+
+/* Make headlines stand out */
+h1, h2, h3 {
+    color: #1E1E1E;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Button styling */
+.stButton>button {
+    width: 100%;
+    border-radius: 5px;
+    height: 3em;
+    background-color: #FF4B4B;
+    color: white;
+}
